@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programación Deportiva del Fin de Semana | Roja Directa</title>
+  <meta name="description" content="Programación completa del fin de semana en Roja Directa: todos los partidos del sábado, domingo y lunes con horarios en hora española, por deporte y competición.">
+  <link rel="canonical" href="https://roja-directa.vercel.app/programacion">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0b1a2e">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Roja Directa">
+  <meta property="og:title" content="Programación Deportiva del Fin de Semana | Roja Directa">
+  <meta property="og:description" content="Todos los partidos del sábado, domingo y lunes con horarios en hora española. Filtra por deporte y competición.">
+  <meta property="og:url" content="https://roja-directa.vercel.app/programacion">
+  <meta property="og:image" content="https://roja-directa.vercel.app/assets/img/og-portada.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Programación del Fin de Semana | Roja Directa">
+  <meta name="twitter:description" content="Partidos del sábado, domingo y lunes con horarios en hora española.">
+  <meta name="twitter:image" content="https://roja-directa.vercel.app/assets/img/og-portada.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2322d3ee'/%3E%3Cpath d='M26 20l20 12-20 12z' fill='%2304222b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://roja-directa.vercel.app/programacion#webpage",
+        "url": "https://roja-directa.vercel.app/programacion",
+        "name": "Programación Deportiva del Fin de Semana | Roja Directa",
+        "inLanguage": "es",
+        "description": "Programación completa del fin de semana: partidos del sábado, domingo y lunes con horarios en hora española."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://roja-directa.vercel.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Programación", "item": "https://roja-directa.vercel.app/programacion" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap header-in">
+      <a class="brand" href="/" aria-label="Roja Directa - inicio">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M26 20l20 12-20 12z"/></svg></span>
+        <span>ROJA DIRECTA<small>PROGRAMACIÓN DEPORTIVA</small></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mainnav" aria-label="Abrir menú">☰</button>
+      <nav class="main-nav" id="mainnav" aria-label="Navegación principal">
+        <a href="/">Inicio</a>
+        <a href="/programacion" class="active" aria-current="page">Programación</a>
+        <a href="/ligas">Ligas</a>
+        <a href="/guia">Guía TV</a>
+        <a href="/faq">FAQ</a>
+        <a href="/contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <div class="wrap">
+      <nav class="breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a> › Programación</nav>
+      <div class="page-head">
+        <h1>Programación del fin de semana</h1>
+        <p>La agenda completa del sábado 10, domingo 11 y lunes 12 de octubre: todos los partidos y eventos deportivos con horarios en hora peninsular española. Filtra por deporte, por competición o busca tu equipo.</p>
+      </div>
+
+      <section class="block" aria-label="Programación completa">
+        <div class="sched" id="sched-app">
+          <div class="sched-head">
+            <div class="day-tabs" id="day-tabs" role="tablist" aria-label="Elegir día"></div>
+          </div>
+          <div class="sched-filters">
+            <select class="f-select" id="f-sport" aria-label="Filtrar por deporte"></select>
+            <select class="f-select" id="f-comp" aria-label="Filtrar por competición"></select>
+            <input class="f-search" id="f-search" type="search" placeholder="Buscar equipo o competición…" aria-label="Buscar equipo o competición">
+          </div>
+          <div class="sched-meta"><span id="sched-count"></span><span>Pulsa un evento para ver su ficha</span></div>
+          <ul class="match-list" id="match-list" aria-live="polite"></ul>
+        </div>
+      </section>
+
+      <section class="block prose" aria-label="Sobre la programación">
+        <h2>Lo más destacado del fin de semana</h2>
+        <p>El <strong>sábado 10</strong> combina la jornada 8 de LaLiga (Real Madrid – Villarreal a las 21:00, Barcelona – Getafe a las 18:30) con la Premier League (Manchester United – Tottenham a las 18:30), la Bundesliga (Augsburgo – Bayern) y ocho partidos de la <strong>clasificación para el Mundial</strong>, entre ellos Francia – Azerbaiyán y Alemania – Luxemburgo. En Arabia Saudí, el clásico <strong>Al Hilal – Al Ittihad</strong> cierra la noche a las 20:00.</p>
+        <p>El <strong>domingo 11</strong> trae el partidazo de la Premier, <strong>Liverpool – Manchester City</strong> (17:30), el derbi de El Cairo <strong>Zamalek – Al Ahly</strong> (19:00), el <strong>GP de Singapur</strong> de Fórmula 1 (14:00) y el <strong>GP de Indonesia</strong> de MotoGP (09:00). El <strong>lunes 12</strong>, la clasificación mundialista continúa con Irlanda del Norte – Alemania y Gales – Bélgica, y LaLiga deja el Levante – Sevilla para las 21:00.</p>
+        <h2>Nota sobre los horarios</h2>
+        <p>Todos los horarios se publican en <strong>hora peninsular española (CEST)</strong>. Los eventos de fuera de Europa ya están convertidos. Los horarios de la clasificación UEFA son aproximados: confirma siempre la hora exacta en la web oficial de la competición antes del partido.</p>
+      </section>
+    </div>
+  </main>
+
+  <div class="modal-back" id="modal-back">
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+      <div class="modal-head"><h3 id="m-title"></h3><button class="modal-close" id="m-close" aria-label="Cerrar">✕</button></div>
+      <div class="modal-body" id="m-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a class="brand" href="/" aria-label="Roja Directa - inicio">
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M26 20l20 12-20 12z"/></svg></span>
+            <span>ROJA DIRECTA<small>PROGRAMACIÓN DEPORTIVA</small></span>
+          </a>
+          <p>Guía diaria de partidos, horarios y programación deportiva en hora peninsular española.</p>
+        </div>
+        <div>
+          <h4>Secciones</h4>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/programacion">Programación</a></li>
+            <li><a href="/ligas">Ligas y competiciones</a></li>
+            <li><a href="/guia">Guía TV</a></li>
+            <li><a href="/faq">Preguntas frecuentes</a></li>
+            <li><a href="/contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/aviso-legal">Aviso legal</a></li>
+            <li><a href="/privacidad">Política de privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="disclaimer"><strong>Aviso:</strong> Roja Directa es una guía informativa de programación deportiva. No aloja, emite ni enlaza retransmisiones de ningún evento.</div>
+      <div class="foot-bottom">
+        <span>© 2026 Roja Directa. Todos los derechos reservados.</span>
+        <span>Horarios en hora peninsular española (CEST).</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" aria-label="Volver arriba">↑</button>
+  <script src="assets/js/fixtures.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
