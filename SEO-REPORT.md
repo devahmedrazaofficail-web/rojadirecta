@@ -40,8 +40,10 @@
 
 ## 4. Schema markup (JSON-LD válido, verificado)
 
-- `index`: WebSite, Organization, WebPage, BreadcrumbList, **FAQPage** (5 Q&A),
-  **ItemList** con 8 `SportsEvent` (partidos reales visibles en la agenda).
+- `index`: WebSite, Organization, WebPage, BreadcrumbList, **FAQPage** (5 Q&A).
+  El bloque `ItemList`/`SportsEvent` se eliminó el 10-oct-2026: Google Rich Results
+  Test marcaba 1 error crítico por item (falta `location`; los estadios no se
+  inventan). Los schemas restantes son válidos y no causan errores.
 - `programacion`: WebPage + BreadcrumbList.
 - `faq`: FAQPage con las 10 preguntas visibles (verificación 10/10).
 - Resto: WebPage + BreadcrumbList. Sin datos inventados: sin ratings, precios
