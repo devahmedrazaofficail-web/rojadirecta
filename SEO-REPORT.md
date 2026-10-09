@@ -1,6 +1,6 @@
 # Informe SEO — Roja Directa
 
-**Fecha:** 10 de octubre de 2026 · **Dominio provisional:** `https://roja-directa.vercel.app`
+**Fecha:** 10 de octubre de 2026 · **Dominio provisional:** `https://rojadirecta.vercel.app`
 (⚠️ reemplazar por el dominio definitivo en canonicals, Open Graph y `sitemap.xml` antes de lanzar)
 
 ## 1. Estrategia
@@ -78,7 +78,7 @@
 
 ## 8. Temas pendientes (decisiones del propietario)
 
-1. **Dominio definitivo:** reemplazar `roja-directa.vercel.app` en todos los archivos.
+1. **Dominio definitivo:** reemplazar `rojadirecta.vercel.app` en todos los archivos.
 2. **Formulario de contacto:** conectar Formspree (ver README) para recibir mensajes.
 3. **Agenda semanal:** actualizar `fixtures.js` cada semana (los datos son del 10–12 oct 2026).
 4. **Horarios UEFA aproximados:** confirmar con la web oficial de la UEFA.

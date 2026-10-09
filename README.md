@@ -37,9 +37,9 @@ con horarios en hora peninsular española.
    sigue las instrucciones de DNS de Vercel.
 
 > **IMPORTANTE — dominio:** todos los `canonical`, Open Graph y `sitemap.xml`
-> usan el dominio provisional `https://roja-directa.vercel.app`.
+> usan el dominio provisional `https://rojadirecta.vercel.app`.
 > Cuando tengas tu dominio definitivo, haz un buscar/reemplazar de
-> `roja-directa.vercel.app` por tu dominio en todos los archivos.
+> `rojadirecta.vercel.app` por tu dominio en todos los archivos.
 
 ## Actualizar los partidos (cada semana)
 
